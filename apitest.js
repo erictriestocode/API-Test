@@ -1,5 +1,7 @@
 // API Key: AIzaSyARUTkixy00DWI57qipoe4H6_kNASXlqdQ 
 
+// Test URLs:https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=Chicago&destinations=Detroit&key=AIzaSyARUTkixy00DWI57qipoe4H6_kNASXlqdQ
+
 
 // {
 //     "destination_addresses" : [ "Detroit, MI, USA" ],
