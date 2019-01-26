@@ -32,7 +32,7 @@ console.log(queryURL);
 
 $.ajax ({
     url: queryURL,
-    method: "FETCH"
+    method: "GET"
 })
     // We store all of the retrieved data inside of an object called "response"
     .then(function (response) {
