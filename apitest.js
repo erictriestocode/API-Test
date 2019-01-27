@@ -26,33 +26,36 @@
 //     "status" : "OK"
 //  }
 
-var startCity;
-var endCity;
-// var queryURL = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=Washington,DC&destinations=New+York+City,NY&key=AIzaSyARUTkixy00DWI57qipoe4H6_kNASXlqdQ";
+$(document).ready(function () {
+    var startCity;
+    var endCity;
+    // var queryURL = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=Washington,DC&destinations=New+York+City,NY&key=AIzaSyARUTkixy00DWI57qipoe4H6_kNASXlqdQ";
 
-// console.log(queryURL);
+    // console.log(queryURL);
 
-// $.ajax ({
-//     url: queryURL,
-//     method: "GET"
-// })
-//     // We store all of the retrieved data inside of an object called "response"
-//     .then(function (response) {
+    // $.ajax ({
+    //     url: queryURL,
+    //     method: "GET"
+    // })
+    //     // We store all of the retrieved data inside of an object called "response"
+    //     .then(function (response) {
 
-//         // Log the queryURL
-//         console.log(queryURL);
+    //         // Log the queryURL
+    //         console.log(queryURL);
 
-//         // Log the resulting object
-//         console.log(response);
+    //         // Log the resulting object
+    //         console.log(response);
 
-//         // Transfer content to HTML
-       
-//     });
+    //         // Transfer content to HTML
+
+    //     });
 
 
-    $(".submit").on("click", function(){
-        event.preventDefault();
+    $("#send-button").click(function (event) {
+        // event.preventDefault();
         console.log("Button Clicked!")
-        startCity = $(".startDestination").val().trim();
-        console.log(startCity);
+        // startCity = $(".startDestination").val().trim();
+        // console.log(startCity);
     });
+
+});
